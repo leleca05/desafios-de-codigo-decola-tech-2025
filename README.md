@@ -1,6 +1,7 @@
 # desafios-de-codigo-decola-tech-2025
 Conteúdo Decola Tech 25
 Desafios de Códigos desenvolvidos no bootcamp
+
 Desafio 1- Simulando Funcionalidades de Sistemas - Implementando um Processo de Autenticação
 Descrição
 Implemente um programa que simule um login em uma API REST, verificando um usuário e senha fixos (admin/1234).
@@ -11,10 +12,10 @@ Dois valores: o primeiro é o nome de usuário (string) e o segundo é a senha (
 Saída
 Se os valores forem "admin" e "1234", exiba "Login bem-sucedido!", caso contrário, "Falha na autenticacao!".
 
+
 Desafio 2 - Simulando Funcionalidades de Sistemas - Simulando um Endpoint de Conversão de Moeda
 Descrição
 Implemente um programa que simule um endpoint de API REST para converter valores em dólares para reais. O programa deve receber um valor decimal representando um montante em dólares e convertê-lo para reais utilizando uma cotação fixa de R$5,00 por US$1,00.
-
 A saída do programa deve exibir o valor convertido no formato "Valor em reais: R${valor}", garantindo que o resultado tenha duas casas decimais.
 
 Entrada
@@ -22,6 +23,7 @@ Um único número decimal (double) representando o valor em dólares.
 
 Saída
 O valor convertido para reais no formato "Valor em reais: R${valor}", com duas casas decimais.
+
 
 Desafio 3 - Simulando Registros e Atualizações em Sistemas - Simulando uma Inserção de Dados
 Descrição
@@ -35,10 +37,10 @@ Idade (inteiro)
 Saída
 Mensagem confirmando a inserção no formato: "Usuário {nome1}, {nome2}, {nome3}"
 
+
 Desafio 4 - Simulando Registros e Atualizações em Sistemas - Atualizando um Usuário no Banco
 Descrição
 Você foi designado para desenvolver um programa que armazena dados de usuários e permite verificar se um usuário existe no sistema. O programa deve seguir os seguintes passos:
-
 Cadastrar um número fixo de usuários, onde cada usuário possui um ID único e uma idade. Verificar a existência de usuários no banco de dados com base em uma lista de IDs fornecida. Exibir mensagens apropriadas indicando se o usuário foi encontrado ou não.
 
 Entrada
@@ -57,6 +59,7 @@ Verificação de usuários:
 "ID registered user" → Se o ID for encontrado.
 "ID invalid user" → Se o ID não for encontrado.
 Observação: A idade do usuário é informada no cadastro, mas não é utilizada durante a verificação de IDs.
+
 
 Desafio 5 - Simulando Funcionalidades de um Sistema de Artigos - Simulando um Banco de Dados de Artigos
 Descrição
@@ -79,6 +82,7 @@ Um número inteiro representando o ID do artigo.
 Saída
 O título do artigo no formato "Artigo: {título}". Caso o ID não exista, exibir "Erro: Artigo nao encontrado!".
 
+
 Desafio 6 - Simulando Funcionalidades de um Sistema de Artigos - Filtrando Artigos Usando Pesquisa por Palavra-Chave
 Descrição
 Implemente um programa que receba um termo de pesquisa e retorne todos os títulos de artigos que contenham esse termo.
@@ -100,6 +104,8 @@ Artigos encontrados: - {Título do Artigo 1}
 - {Título do Artigo 2}
 
 Se nenhum artigo corresponder ao termo pesquisado: Nenhum artigo encontrado para o termo: {termo}
+
+
 Desafio 7 - Simulando Funcionalidades de um Sistema de Artigos
 Descrição
 Implemente um programa que simula um sistema de curtidas para artigos de um blog. O sistema permite adicionar curtidas e consultar curtidas de um artigo existente.
