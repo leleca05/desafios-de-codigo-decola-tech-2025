@@ -26,3 +26,33 @@ public class Main {
         }    
     }
 }
+
+Simulando um Endpoint de Conversão de Moeda
+import java.util.Scanner;
+import java.text.DecimalFormat;
+
+public class Main {
+    
+    public static void main(String[] args) {
+        // Definindo a cotação fixa
+        final double COTACAO = 5.00;
+
+        // Criando um scanner para ler a entrada do usuário
+        Scanner scanner = new Scanner(System.in);
+        
+        // Lendo o valor em dólares
+        double valorDolar = scanner.nextDouble();
+        
+        // Convertendo para reais
+        double valorReais = valorDolar * COTACAO;
+
+        // Formatando o valor para duas casas decimais
+        DecimalFormat df = new DecimalFormat("#.00");
+        
+        // Exibindo o resultado
+        System.out.println("Valor em reais: R$" + df.format(valorReais));
+        
+        // Fechando o scanner
+        scanner.close();
+    }
+}
